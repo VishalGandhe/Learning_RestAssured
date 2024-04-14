@@ -84,7 +84,7 @@ public class FileUploadAndDownload {
         given()
 
                 .when()
-                .get("https://v2.convertapi.com/d/4b8jew1br9jzzz4u2po39uli84v0sa09")
+                .get("https://v2.convertapi.com/d/1mpirqzzgj5le70f2cs9zi03n8dfqw35")
 
                 .then()
                 .statusCode(200)
@@ -98,7 +98,7 @@ public class FileUploadAndDownload {
         given()
 
                 .when()
-                .delete("https://v2.convertapi.com/d/4b8jew1br9jzzz4u2po39uli84v0sa09")
+                .delete("https://v2.convertapi.com/d/1mpirqzzgj5le70f2cs9zi03n8dfqw35")
 
                 .then()
                 .statusCode(200)
