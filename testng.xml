@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Shreeya/IdeaProjects/Learning_RestAssured">
+        <classes>
+            <class name="com.myprojectstructure.AllHTTPSRequest.HTTPS">
+                <methods>
+                    <include name="getUsers"/>
+                    <include name="createUser"/>
+                    <include name="UpdateUser"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="com.myprojectstructure.DiffrentWayToCreatePOSTmethod.WaysToCreatePOST_request">
+                <methods>
+                    <include name="testPostUsingHashMap"/>
+                    <include name="testPostUsingOrgJson"/>
+                    <include name="testPostUsingPOJOClass"/>
+                    <include name="testPostUsingExternalJSONFile"/>
+                    <include name="deleteRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
